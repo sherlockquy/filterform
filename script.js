@@ -17,15 +17,15 @@ function contentLoaded() {
     var inputList = window.document.querySelectorAll('input');
     for (var i=0; i<inputList.length;i++){
         if (inputList[i].placeholder === 'your name') {
-            inputList[i].value = 'HO ANH QUAN'
+            inputList[i].value = 'YOUR NAME'
         }
 
         if (inputList[i].placeholder === 'email') {
-            inputList[i].value = 'skyvip1805@gmail.com'
+            inputList[i].value = 'abcxyz@gmail.com'
         }
 
         if (inputList[i].placeholder === 'mobile phone') {
-            inputList[i].value = '09092881775'
+            inputList[i].value = '0909090909'
         }
     }
 
